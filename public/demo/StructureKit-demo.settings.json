@@ -1,0 +1,210 @@
+{
+  "filename": "StructureKit-demo.xlsx",
+  "title": "デモ帳票",
+  "areas": [
+    {
+      "id": "demo-sales",
+      "sheetId": "demo-sales-sheet",
+      "sheetName": "売上実績",
+      "name": "商品別売上",
+      "range": "A4:G11",
+      "enabled": true,
+      "blocks": [
+        {
+          "id": "demo-sales-heading",
+          "type": "heading",
+          "name": "商品別売上の見出し",
+          "range": "A4:A4",
+          "enabled": true,
+          "text": "",
+          "level": 2,
+          "format": "markdown",
+          "headerRows": 0,
+          "headerColumns": 0,
+          "excludedRows": "",
+          "excludedColumns": ""
+        },
+        {
+          "id": "demo-sales-table",
+          "type": "table",
+          "name": "商品別売上データ",
+          "range": "A5:G9",
+          "enabled": true,
+          "text": "",
+          "level": 2,
+          "format": "markdown",
+          "headerRows": 1,
+          "headerColumns": 0,
+          "excludedRows": "",
+          "excludedColumns": "G"
+        },
+        {
+          "id": "demo-sales-note",
+          "type": "text",
+          "name": "金額の注釈",
+          "range": "A11:G11",
+          "enabled": true,
+          "text": "",
+          "level": 2,
+          "format": "markdown",
+          "headerRows": 0,
+          "headerColumns": 0,
+          "excludedRows": "",
+          "excludedColumns": ""
+        }
+      ]
+    },
+    {
+      "id": "demo-staff",
+      "sheetId": "demo-sales-sheet",
+      "sheetName": "売上実績",
+      "name": "担当者別実績",
+      "range": "A13:G19",
+      "enabled": true,
+      "blocks": [
+        {
+          "id": "demo-staff-heading",
+          "type": "heading",
+          "name": "担当者別実績の見出し",
+          "range": "A13:A13",
+          "enabled": true,
+          "text": "",
+          "level": 2,
+          "format": "markdown",
+          "headerRows": 0,
+          "headerColumns": 0,
+          "excludedRows": "",
+          "excludedColumns": ""
+        },
+        {
+          "id": "demo-staff-table",
+          "type": "table",
+          "name": "担当者別実績データ",
+          "range": "A14:D17",
+          "enabled": true,
+          "text": "",
+          "level": 2,
+          "format": "markdown",
+          "headerRows": 1,
+          "headerColumns": 0,
+          "excludedRows": "",
+          "excludedColumns": ""
+        }
+      ]
+    },
+    {
+      "id": "demo-multi",
+      "sheetId": "demo-multi-sheet",
+      "sheetName": "多段ヘッダー",
+      "name": "年度比較",
+      "range": "A2:F12",
+      "enabled": true,
+      "blocks": [
+        {
+          "id": "demo-multi-heading",
+          "type": "heading",
+          "name": "年度比較の見出し",
+          "range": "A2:F2",
+          "enabled": true,
+          "text": "",
+          "level": 2,
+          "format": "markdown",
+          "headerRows": 0,
+          "headerColumns": 0,
+          "excludedRows": "",
+          "excludedColumns": ""
+        },
+        {
+          "id": "demo-multi-table",
+          "type": "table",
+          "name": "年度別売上と利益",
+          "range": "A5:F10",
+          "enabled": true,
+          "text": "",
+          "level": 2,
+          "format": "markdown",
+          "headerRows": 2,
+          "headerColumns": 0,
+          "excludedRows": "",
+          "excludedColumns": "F"
+        }
+      ]
+    },
+    {
+      "id": "demo-company",
+      "sheetId": "demo-company-sheet",
+      "sheetName": "会社情報",
+      "name": "会社情報",
+      "range": "A2:D10",
+      "enabled": true,
+      "blocks": [
+        {
+          "id": "demo-company-heading",
+          "type": "heading",
+          "name": "会社情報の見出し",
+          "range": "A2:D2",
+          "enabled": true,
+          "text": "",
+          "level": 2,
+          "format": "markdown",
+          "headerRows": 0,
+          "headerColumns": 0,
+          "excludedRows": "",
+          "excludedColumns": ""
+        },
+        {
+          "id": "demo-company-table",
+          "type": "table",
+          "name": "会社の基本情報",
+          "range": "A5:B10",
+          "enabled": true,
+          "text": "",
+          "level": 2,
+          "format": "markdown",
+          "headerRows": 0,
+          "headerColumns": 1,
+          "excludedRows": "",
+          "excludedColumns": ""
+        }
+      ]
+    },
+    {
+      "id": "demo-matrix",
+      "sheetId": "demo-company-sheet",
+      "sheetName": "会社情報",
+      "name": "部門別稼働実績",
+      "range": "A13:D19",
+      "enabled": true,
+      "blocks": [
+        {
+          "id": "demo-matrix-heading",
+          "type": "heading",
+          "name": "部門別稼働実績の見出し",
+          "range": "A13:A13",
+          "enabled": true,
+          "text": "",
+          "level": 2,
+          "format": "markdown",
+          "headerRows": 0,
+          "headerColumns": 0,
+          "excludedRows": "",
+          "excludedColumns": ""
+        },
+        {
+          "id": "demo-matrix-table",
+          "type": "table",
+          "name": "部門別稼働実績データ",
+          "range": "A14:D17",
+          "enabled": true,
+          "text": "",
+          "level": 2,
+          "format": "markdown",
+          "headerRows": 1,
+          "headerColumns": 1,
+          "excludedRows": "",
+          "excludedColumns": ""
+        }
+      ]
+    }
+  ]
+}
